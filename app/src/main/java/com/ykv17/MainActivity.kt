@@ -41,7 +41,7 @@ class MainActivity : ComponentActivity() {
                     }
 
                     composable(
-                        Screen.PokemonDetailScreen.route,
+                        Screen.PokemonDetailScreen.route + "/{dominantColor}/{pokemonName}",
                         arguments = listOf(
                             navArgument("dominantColor") {
                                 type = NavType.IntType
