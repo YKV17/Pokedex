@@ -21,6 +21,8 @@ object AppModule {
         api: PokeApi
     ) = PokemonRepository(api)
 
+    @Provides
+    @Singleton
     fun providePokeApi(): PokeApi {
         return Retrofit.Builder()
             .baseUrl(BASE_URL)
