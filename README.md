@@ -3,6 +3,13 @@
 # Pokedex
 Welcome to the Jetpack Compose Pokemon App repository! This Android application showcases the power of Jetpack Compose, a modern Android UI toolkit, by providing an interactive and visually appealing way to explore the world of Pokémon.
 
+## Screens
+<div style="display: flex; justify-content: space-between;">
+    <img src="list.jpg" alt="Image 1" width="30%">
+    <img src="Search.jpg" alt="Image 2" width="30%">
+    <img src="Details.jpg" alt="Image 3" width="30%">
+</div>
+
 ## Features
 
 - **Pokemon List**: The app fetches a comprehensive list of Pokémon from an external data source and displays them in a scrollable list using Jetpack Compose's `LazyColumn`.
